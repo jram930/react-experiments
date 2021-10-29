@@ -39,7 +39,7 @@ function TeamsTable() {
 							</TableRow>
 						</TableHead>
 						<TableBody>
-							{teamData.map((row) => (
+							{teamData.map((row: any) => (
 								<TableRow
 									key={row.mlb_org}
 									sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
